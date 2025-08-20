@@ -1,0 +1,18 @@
+package Ifelse;
+import java.util.Scanner;
+
+public class Oddeven {
+
+	public static void main(String[] args) {
+		System.out.println("Enter input");
+		Scanner sc =new Scanner(System.in);
+		int num = sc.nextInt();
+		
+		if(num%2==0){
+			System.out.println("Even");
+		}else {
+			System.out.println("Odd");
+		}	sc.close();
+	}
+
+}
