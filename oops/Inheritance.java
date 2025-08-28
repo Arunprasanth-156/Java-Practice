@@ -21,7 +21,7 @@ class Orange extends Fruit{
 	}
 }
 
-public class Fruit1 {
+public class Inheritance {
 
 	public static void main(String[] args) {
 		Fruit f1 = new Orange();
@@ -36,5 +36,6 @@ public class Fruit1 {
 		
 
 	}
+
 
 
